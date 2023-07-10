@@ -1,3 +1,3 @@
-#pragme once
+#pragma once
 
 int sum(int n);
