@@ -19,6 +19,8 @@ int main() {
 	
 	setvbuf(stdin, 0, 2, 0);
 	setvbuf(stdout, 0, 2, 0);
+	hello();
+	bye();
 	printf("please get shell!!!! if you can^^\n");
 	read(1, buf, 0x100);
 	return 0;
