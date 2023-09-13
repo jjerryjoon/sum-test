@@ -7,6 +7,6 @@ void vuln(){
         read(0, buf, 0x100);
 }
 int main() {
-     vuln();
+        vuln();
 }
            
